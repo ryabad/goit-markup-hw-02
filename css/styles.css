@@ -106,6 +106,14 @@ body {
   background: #4d5ae5;
 }
 
+.benefits-subtitle,
+.about-us-subtitle,
+.activities-title,
+.about-us-title,
+.examples-subtitle {
+  color: var(--highest-color);
+}
+
 .about-us {
   background: #f4f4fd;
 }
@@ -116,10 +124,6 @@ body {
 
 .about-us-item {
   background-color: var(--second-color);
-}
-
-.examples-subtitle {
-  color: var(--highest-color);
 }
 
 .footer {
