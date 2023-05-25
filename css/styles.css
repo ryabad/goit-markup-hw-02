@@ -1,6 +1,8 @@
 :root {
-  --main-color: #2e2f42;
+  --main-color: #434455;
+  --highest-color: #2e2f42;
   --second-color: #ffffff;
+  --logo-color: #4d5ae5;
   --main-font: "Roboto", sans-serif;
 }
 
@@ -37,8 +39,8 @@ body {
 .text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .header-logo {
@@ -48,14 +50,18 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--logo-color);
 }
 
 .logo-span {
-  color: #4d5ae5;
+  color: var(--highest-color);
+}
+
+.header-contacts {
+  font-style: normal;
 }
 
 .header-menu-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -64,11 +70,10 @@ body {
 }
 
 .header-contacts-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-color);
 }
 
 .header-menu-link:hover,
@@ -79,7 +84,7 @@ body {
 }
 
 .banner {
-  background: var(--main-color);
+  background: var(--highest-color);
 }
 
 .banner-caption {
@@ -109,21 +114,30 @@ body {
   text-align: center;
 }
 
+.about-us-item {
+  background-color: var(--second-color);
+}
+
+.examples-subtitle {
+  color: var(--highest-color);
+}
+
 .footer {
-  background: var(--main-color);
+  background: var(--highest-color);
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--logo-color);
 }
 
-.footer-text {
+.footer-text,
+.logo-span-footer {
   color: #f4f4fd;
 }
 
