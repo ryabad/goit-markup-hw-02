@@ -3,6 +3,8 @@
   --highest-color: #2e2f42;
   --second-color: #ffffff;
   --logo-color: #4d5ae5;
+  --effect-main-color: #f4f4fd;
+  --effect-second-color: #404bbf;
   --main-font: "Roboto", sans-serif;
 }
 
@@ -66,7 +68,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--highest-color);
 }
 
 .header-contacts-link {
@@ -80,7 +82,7 @@ body {
 .header-menu-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #404bbf;
+  color: var(--effect-second-color);
 }
 
 .banner {
@@ -103,7 +105,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--second-color);
-  background: #4d5ae5;
+  background: var(--logo-color);
 }
 
 .benefits-subtitle,
@@ -115,7 +117,7 @@ body {
 }
 
 .about-us {
-  background: #f4f4fd;
+  background: var(--effect-main-color);
 }
 
 .about-us-text {
@@ -142,24 +144,23 @@ body {
 
 .footer-text,
 .logo-span-footer {
-  color: #f4f4fd;
+  color: var(--effect-main-color);
 }
 
 .portfolio-btn {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--logo-color);
+  background: var(--effect-main-color);
 }
 
 .btn:hover,
 .btn:focus {
   cursor: pointer;
   color: var(--second-color);
-  background: #404bbf;
+  background: var(--effect-second-color);
 }
